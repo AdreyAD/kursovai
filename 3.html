@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transpor Galaktic</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <section class="sec">
+<header>
+<a href="#"><img src="" class="logo"></a>
+<ul>
+    <li><a href="Untitled-1.html">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Events</a></li>
+    <li><a href="#">Light/Dark button->></a></li>
+    <input type="checkbox" id="toggle">
+
+    <label class="toggle" for="toggle">
+        <i class="bx bxs-sun"></i>
+        <i class="bx bx-moon"></i>
+        <span class="ball"></span>
+    </label>
+    <script type="text/javascript" src="Untitled-1.js"></script>
+
+</ul>
+</header>
+<div class="content">
+    <div class="textBox">
+        <h2>Welcome<br><span>to Corusant</span></h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. P
+            raesentium doloribus quia, 
+            ea a dolores porro repellat dolore! Ad a soluta similique, reprehenderit, 
+            molestias ipsam quibusdam adipisci perferendis nisi
+             deserunt corporis!</p>
+             <a href="#">Viev All products</a>
+    </div>
+    <div class="imgBox">
+        <img src="tatuin.jpg" class="tatuin">
+    </div>
+</div>
+<ul class="thumb">
+    <li><img src="tatuin.jpg" onclick="imgSlider('c1.webp')"></li>
+    <li><img src="Endor_BF2.webp" onclick="imgSlider('c2.jpg')"></li>
+    <li><img src="cor.jpg" onclick="imgSlider('c4.jpg')"></li>
+</ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.tatuin').src = anything;
+        }
+    </script>
+</body>
+</html>
